@@ -1,0 +1,89 @@
+img{
+	height: 20%;
+	width: 20%;
+}
+header{
+	display: inline-block;
+	background-color: red;
+	width:100%;
+}
+.nav-link{
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 28px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#navbar{
+
+    float: right;
+}
+#navbar a:hover{
+	background-color: white;
+	color:red;
+}
+#welcome-section{
+	padding: 150px 150px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+}
+#projects{
+	background-color: lightyellow;
+	height: auto;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  max-width: 100%;
+	  padding-bottom: 30px;
+}
+#projects h2{
+	text-decoration: underline;
+	font-size: 2em;
+	text-align: center;
+	padding:20px;
+	padding-top: 0px;
+}
+#projects-content{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 6vw;
+	grid-row-gap: 6vh;
+	max-width: 900px;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	justify-content: center;
+	align-items: center;
+}
+#projects a{
+	padding-bottom: 20px;
+	text-decoration: none;
+	background-color: #949ba6;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+#contact{
+	padding: 10px 10px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+}
+#contact a{
+	color: white;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+#show-all{
+	padding: 15px 25px;
+}

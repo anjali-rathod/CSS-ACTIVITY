@@ -1,0 +1,87 @@
+body{
+	background-color: #f5f0e4;
+}
+header{
+	display: inline-block;
+	background-color: grey;
+	width:100%;
+}
+header img{
+	height: 4%;
+	width: 4%;
+	padding-left: 10px;
+}
+.nav-link{
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 28px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#navbar{
+
+	padding-top: 8px;
+    float: right;
+}
+#navbar a:hover{
+	background-color: white;
+	color:maroon;
+}
+#contact{
+	padding: 10px 10px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+}
+#contact a{
+	color: white;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+#welcome-section,#form{
+	text-align: center;
+	font-size: 1.3em;
+	padding: 5px 5px;
+}
+input[type=submit]{
+	padding: 5px 5px 5px 5px;
+	background-color: yellow;
+	text-decoration: none;
+}
+input[type=email]
+{
+	width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#soap{
+	text-align: center;
+	justify-content: center;
+	font-size: 1em;
+	font-family: sans-serif;
+}
+#soap img{
+	width: 15%;
+	height: auto;
+}
+video{
+	width:20%;
+	height: 20%;
+}
+#price{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 1em;
+}
+#price div{
+	border: 2px #ccc solid;
+	padding:10px 30px 10px;
+	text-align: center;
+	height: 100%
+}

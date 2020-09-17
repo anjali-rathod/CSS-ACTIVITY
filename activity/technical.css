@@ -1,0 +1,56 @@
+/*@media (min-width: 600px)
+ {
+  .nav-link
+  {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+	}
+}*/
+section {
+   border:2px solid black;
+}
+
+#navbar header , a {
+  border:2px solid black;
+}
+
+body{
+  background-color: #f5f4dc;
+}
+
+.container{
+  display: grid;
+  grid-template-areas: "navbar main-doc";
+  grid-template-columns: 20% 80%;
+}
+
+#navbar{
+  border:2px solid black;
+  grid-area: navbar;
+  height: 100%;
+  background-color: #e3a39a;
+}
+
+#main-doc{
+  grid-area: main-doc;
+  height: 100%;
+}
+
+a{
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header{
+  font-size: 2em;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}

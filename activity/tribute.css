@@ -1,0 +1,39 @@
+#main{
+	background-color: #d5ded7;
+	text-align: center;
+	margin: auto;
+	box-sizing: border-box;
+    font-size: 1.2em;
+}
+#title{
+	font-size: 2.7em;
+	font-weight: bold;
+	text-align: center;
+	padding-top:20px;
+}
+#image-div{
+	background-color: white;
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+	height: auto;
+}
+#image {
+	width: 100%;
+	height: auto;
+	max-width: 625px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#img-caption{
+	padding: 20px;
+}
+#tribute-info{
+	padding:20px;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+}
+#tribute-link{
+	padding: 10px;
+}
